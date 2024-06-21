@@ -77,7 +77,7 @@
     "macOSPrivateApi": true,
     "windows": [
       {
-        "title": "Talk with Gemini",
+        "title": "Talk with Telll",
         "width": 1024,
         "height": 768,
         "minWidth": 375,
