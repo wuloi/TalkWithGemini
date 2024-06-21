@@ -2,9 +2,9 @@
 name = "talk-with-gemini"
 version = "0.11.0"
 description = "Your private Gemini application."
-authors = ["Amery2010 amery@xiangfa.org"]
+authors = ["ResearchGenAI"]
 license = "GPL-3.0-only"
-repository = "https://github.com/Amery2010/TalkWithGemini"
+repository = "https://github.com/ResearchGenAI/TalkWithGemini"
 default-run = "talk-with-gemini"
 edition = "2021"
 rust-version = "1.60"

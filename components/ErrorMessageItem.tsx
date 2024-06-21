@@ -39,7 +39,7 @@ function ErrorMessageItem({ content, onRegenerate }: Props) {
       </Avatar>
       <div className="group relative w-full">
         <div className="prose overflow-hidden break-words text-base leading-8">
-          <div className="font-semibold text-red-500">{content}</div>
+          <div className="font-semibold text-blue-500">{content}</div>
         </div>
         <div className="absolute -bottom-2 right-0 flex gap-1 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           <IconButton title={t('regenerate')} onClick={() => onRegenerate()}>

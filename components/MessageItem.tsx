@@ -8,7 +8,7 @@ import markdownHighlight from 'markdown-it-highlightjs'
 import highlight from 'highlight.js'
 import markdownKatex from '@traptitech/markdown-it-katex'
 import Clipboard from 'clipboard'
-import { User, Bot, RotateCw, Sparkles, Copy, CopyCheck, PencilLine, Eraser, Volume2, Eye } from 'lucide-react'
+import { PersonStanding, Leaf, RotateCwSquare, WandSparkles, Copy, CopyCheck, FilePenLine, FileX2, Speech, ScanSearch } from 'lucide-react'
 import { EdgeSpeech } from '@xiangfa/polly'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import BubblesLoading from '@/components/BubblesLoading'
@@ -277,12 +277,12 @@ function MessageItem({ id, role, parts, attachments, onRegenerate }: Props) {
     <>
       <Avatar className="h-8 w-8">
         {role === 'user' ? (
-          <AvatarFallback className="bg-green-300 text-white">
-            <User />
+          <AvatarFallback className="bg-yellow-300 text-white">
+            <PersonStanding />
           </AvatarFallback>
         ) : (
-          <AvatarFallback className="bg-red-300 text-white">
-            <Bot />
+          <AvatarFallback className="bg-blue-300 text-white">
+            <Leaf />
           </AvatarFallback>
         )}
       </Avatar>
@@ -311,7 +311,7 @@ function MessageItem({ id, role, parts, attachments, onRegenerate }: Props) {
                       // eslint-disable-next-line
                       <img className="max-h-48 rounded-sm" src={image} alt="inline-image" />
                     }
-                    <Eye className="absolute left-1/2 top-1/2 -ml-4 -mt-4 h-8 w-8 text-white/80 opacity-0 group-hover/image:opacity-100" />
+                    <ScanSearch className="absolute left-1/2 top-1/2 -ml-4 -mt-4 h-8 w-8 text-white/80 opacity-0 group-hover/image:opacity-100" />
                   </div>
                 )
               })}
@@ -330,13 +330,13 @@ function MessageItem({ id, role, parts, attachments, onRegenerate }: Props) {
                       title={t(role === 'user' ? 'resend' : 'regenerate')}
                       onClick={() => handleRegenerate(id)}
                     >
-                      {role === 'user' ? <RotateCw className="h-4 w-4" /> : <Sparkles className="h-4 w-4" />}
+                      {role === 'user' ? <RotateCwSquare className="h-4 w-4" /> : <WandSparkles className="h-4 w-4" />}
                     </IconButton>
                     <IconButton title={t('edit')} onClick={() => setIsEditing(true)}>
-                      <PencilLine className="h-4 w-4" />
+                      <FilePenLine className="h-4 w-4" />
                     </IconButton>
                     <IconButton title={t('delete')} onClick={() => handleDelete(id)}>
-                      <Eraser className="h-4 w-4" />
+                      <FileX2 className="h-4 w-4" />
                     </IconButton>
                   </>
                 ) : null}
@@ -346,7 +346,7 @@ function MessageItem({ id, role, parts, attachments, onRegenerate }: Props) {
                       {isCopyed ? <CopyCheck className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
                     </IconButton>
                     <IconButton title={t('speak')} onClick={() => handleSpeak()}>
-                      <Volume2 className="h-4 w-4" />
+                      <Speech className="h-4 w-4" />
                     </IconButton>
                   </>
                 ) : null}

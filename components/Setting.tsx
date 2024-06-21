@@ -186,7 +186,7 @@ function Setting({ open, hiddenTalkPanel, onClose }: SettingProps) {
           <div className="grid w-full gap-4 px-4 py-4 max-sm:px-0">
             <div className="grid grid-cols-4 items-center gap-4">
               <Label htmlFor="password" className="text-right">
-                {isProtected ? <span className="leading-12 mr-1 text-red-500">*</span> : null}
+                {isProtected ? <span className="leading-12 mr-1 text-blue-500">*</span> : null}
                 {t('accessPassword')}
               </Label>
               <Input
@@ -240,7 +240,7 @@ function Setting({ open, hiddenTalkPanel, onClose }: SettingProps) {
           <div className="grid w-full gap-4 px-4 py-4 max-sm:px-0">
             <div className="grid grid-cols-4 items-center gap-4">
               <Label htmlFor="key" className="text-right">
-                {!isProtected ? <span className="leading-12 mr-1 text-red-500">*</span> : null}
+                {!isProtected ? <span className="leading-12 mr-1 text-blue-500">*</span> : null}
                 {t('geminiKey')}
               </Label>
               <Input

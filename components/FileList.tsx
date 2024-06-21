@@ -34,7 +34,7 @@ function FileList({ fileList, onRemove }: Props) {
           <div
             className={cn(
               'flex rounded-md border p-1.5',
-              file.status === 'FAILED' ? 'border-red-500 text-red-500' : '',
+              file.status === 'FAILED' ? 'border-red-500 text-blue-500' : '',
             )}
             key={file.id}
           >

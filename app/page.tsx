@@ -4,14 +4,14 @@ import { useRef, useState, useMemo, KeyboardEvent, useEffect, useCallback } from
 import { EdgeSpeech, getRecordMineType } from '@xiangfa/polly'
 import SiriWave from 'siriwave'
 import {
-  MessageCircleHeart,
+  MessageSquareCode,
   AudioLines,
   Mic,
   MessageSquareText,
   Settings,
   Pause,
   SendHorizontal,
-  Github,
+  Rabbit,
 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import ThemeToggle from '@/components/ThemeToggle'
@@ -582,14 +582,14 @@ export default function Home() {
   return (
     <main className="mx-auto flex min-h-full max-w-screen-md flex-col justify-between pb-20 pt-6 max-sm:pb-16 max-sm:pt-0 landscape:max-md:pt-0">
       <div className="mb-2 mt-6 flex justify-between p-4 pr-2 max-sm:mt-2 max-sm:pr-2 landscape:max-md:mt-0">
-        <div className="flex flex-row text-xl leading-8 text-red-400 max-sm:text-base">
-          <MessageCircleHeart className="h-10 w-10 max-sm:h-8 max-sm:w-8" />
+        <div className="flex flex-row text-xl leading-8 text-blue-400 max-sm:text-base">
+          <MessageSquareCode className="h-10 w-10 max-sm:h-8 max-sm:w-8" />
           <div className="ml-3 font-bold leading-10 max-sm:leading-8">{t('title')}</div>
         </div>
         <div className="flex items-center gap-1">
           <Button title={t('github')} variant="ghost" size="icon" className="h-8 w-8">
-            <a href="https://github.com/Amery2010/TalkWithGemini" target="_blank">
-              <Github className="h-5 w-5" />
+            <a href="https://github.com/ResearchGenAI/TalkWithGemini" target="_blank">
+              <Rabbit className="h-5 w-5" />
             </a>
           </Button>
           <ThemeToggle />
@@ -709,7 +709,7 @@ export default function Home() {
                   <TooltipContent
                     className={cn(
                       'mb-1 px-2 py-1 text-center',
-                      isUndefined(audioRecordRef.current?.isRecording) ? '' : 'font-mono text-red-500',
+                      isUndefined(audioRecordRef.current?.isRecording) ? '' : 'font-mono text-blue-500',
                     )}
                   >
                     {isUndefined(audioRecordRef.current?.isRecording) ? t('startRecording') : formatTime(recordTime)}
@@ -736,9 +736,9 @@ export default function Home() {
             <div className="text-sm leading-6">
               <div className="animate-pulse text-lg text-white">{statusText}</div>
               {errorMessage !== '' ? (
-                <div className="whitespace-pre-wrap text-center font-semibold text-red-500">{errorMessage}</div>
+                <div className="whitespace-pre-wrap text-center font-semibold text-blue-500">{errorMessage}</div>
               ) : status === 'talking' ? (
-                <div className="whitespace-pre-wrap text-center text-red-300">{subtitle}</div>
+                <div className="whitespace-pre-wrap text-center text-blue-300">{subtitle}</div>
               ) : (
                 <div className="whitespace-pre-wrap text-center text-green-300">{content}</div>
               )}
