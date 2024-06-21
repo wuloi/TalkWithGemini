@@ -1,11 +1,11 @@
 <div align="center">
 <h1 align="center">Talk With Gemini</h1>
 
-![GitHub deployments](https://img.shields.io/github/deployments/ResearchGenAI/TalkWithGemini/Production)
-![GitHub Release](https://img.shields.io/github/v/release/ResearchGenAI/TalkWithGemini)
+![GitHub deployments](https://img.shields.io/github/deployments/ResearchAIGC/TalkWithGemini/Production)
+![GitHub Release](https://img.shields.io/github/v/release/ResearchAIGC/TalkWithGemini)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xiangfa/talk-with-gemini/latest)
 ![Docker Pulls](https://img.shields.io/docker/pulls/xiangfa/talk-with-gemini)
-![GitHub License](https://img.shields.io/github/license/ResearchGenAI/TalkWithGemini)
+![GitHub License](https://img.shields.io/github/license/ResearchAIGC/TalkWithGemini)
 
 Deploy your private Gemini application for free with one click, supporting Gemini 1.5 Pro, Gemini 1.5 Flash, Gemini Pro and Gemini Pro Vision models.
 
@@ -14,18 +14,18 @@ Deploy your private Gemini application for free with one click, supporting Gemin
 [![Windows][Windows-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[Web App][web-url] / [Desktop App][download-url] / [Issues](https://github.com/ResearchGenAI/TalkWithGemini/issues)
+[Web App][web-url] / [Desktop App][download-url] / [Issues](https://github.com/ResearchAIGC/TalkWithGemini/issues)
 
 [web-url]: https://gemini.u14.app/
-[download-url]: https://github.com/ResearchGenAI/TalkWithGemini/releases
+[download-url]: https://github.com/ResearchAIGC/TalkWithGemini/releases
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FResearchGenAI%2FTalkWithGemini&project-name=talk-with-gemini&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=talk-with-gemini)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FResearchAIGC%2FTalkWithGemini&project-name=talk-with-gemini&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=talk-with-gemini)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ResearchGenAI/TalkWithGemini)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ResearchAIGC/TalkWithGemini)
 
 ![cover](./public/screenshots/screenshots.png)
 
@@ -71,7 +71,7 @@ A cross-platform application client that supports a permanent menu bar, doubling
 
 1. Get [Gemini API Key](https://aistudio.google.com/app/apikey)
 2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FResearchGenAI%2FTalkWithGemini&project-name=talk-with-gemini&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=talk-with-gemini)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FResearchAIGC%2FTalkWithGemini&project-name=talk-with-gemini&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=talk-with-gemini)
 3. Start using
 
 ### Updating Code
@@ -231,7 +231,7 @@ Currently, the two models `Gemini 1.5 Pro` and `Gemini 1.5 Flash` support most i
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ResearchGenAI/TalkWithGemini&type=Date)](https://star-history.com/#ResearchGenAI/TalkWithGemini&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ResearchAIGC/TalkWithGemini&type=Date)](https://star-history.com/#ResearchAIGC/TalkWithGemini&Date)
 
 ## LICENSE
 

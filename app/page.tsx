@@ -588,7 +588,7 @@ export default function Home() {
         </div>
         <div className="flex items-center gap-1">
           <Button title={t('github')} variant="ghost" size="icon" className="h-8 w-8">
-            <a href="https://github.com/ResearchGenAI/TalkWithGemini" target="_blank">
+            <a href="https://github.com/ResearchAIGC/TalkWithGemini" target="_blank">
               <Rabbit className="h-5 w-5" />
             </a>
           </Button>

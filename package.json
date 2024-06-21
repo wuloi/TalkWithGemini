@@ -2,7 +2,7 @@
   "name": "talk-with-gemini",
   "version": "0.12.1",
   "private": true,
-  "author": "ResearchGenAI",
+  "author": "ResearchAIGC",
   "license": "GPL-3.0-only",
   "scripts": {
     "dev": "next dev",
