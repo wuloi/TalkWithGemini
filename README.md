@@ -126,7 +126,7 @@ Custom model list, default: all.
 
 ### `NEXT_PUBLIC_ASSISTANT_INDEX_URL` (optional)
 
-> Default: `https://chat-agents.lobehub.com`
+> Default: `https://chat-agents.theforage.cn`
 
 > Examples: `http://your-assistant-market-proxy.com`
 

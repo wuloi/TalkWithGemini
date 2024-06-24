@@ -82,7 +82,7 @@ export const useSettingStore = create<SettingStore>((set) => ({
       assistantIndexUrl:
         (await storage.getItem<string>('assistantIndexUrl')) ||
         ASSISTANT_INDEX_URL ||
-        'https://chat-agents.lobehub.com',
+        'https://chat-agents.theforage.cn',
       topP: (await storage.getItem<number>('topP')) ?? defaultModelConfig.topP,
       topK: (await storage.getItem<number>('topK')) ?? defaultModelConfig.topK,
       temperature: (await storage.getItem<number>('temperature')) ?? defaultModelConfig.temperature,
